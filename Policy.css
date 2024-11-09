@@ -5,15 +5,15 @@ body {
     min-height: 100vh;
     background-color: #f2f4f5;
     font-family: Arial, sans-serif;
-    padding: 10px; /* Add padding to the body for smaller screens */
+    padding: 10px;
 }
 
 .policy-container {
-    max-width: 900px; /* Increased max-width for larger screens */
-    width: 100%; /* Ensure it takes full width of smaller screens */
-    max-height: 80vh; /* Set a max height for the container */
-    overflow-y: auto; /* Enable vertical scrolling */
-    overflow-x: hidden; /* Prevent horizontal scrolling */
+    max-width: 900px;
+    width: 100%;
+    max-height: 80vh;
+    overflow-y: auto;
+    overflow-x: hidden;
     padding: 30px;
     background-color: #ffffff;
     box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
@@ -21,27 +21,26 @@ body {
     line-height: 1.6;
 }
 
-/* Hide scrollbar for webkit browsers */
 .policy-container::-webkit-scrollbar {
-    width: 8px; /* Width of the scrollbar */
+    width: 8px;
 }
 
 .policy-container::-webkit-scrollbar-thumb {
-    background-color: #aaa; /* Color of the scrollbar thumb */
-    border-radius: 10px; /* Round the edges */
+    background-color: #aaa;
+    border-radius: 10px;
 }
 
 .policy-container::-webkit-scrollbar-thumb:hover {
-    background-color: #888; /* Darker color on hover */
+    background-color: #888;
 }
 
 .policy-container::-webkit-scrollbar-track {
-    background: transparent; /* Transparent track */
+    background: transparent;
 }
 
 h1 {
     font-size: 28px;
-    color: #333; /* Change the color from blue to dark gray */
+    color: #333;
     margin-bottom: 15px;
     font-weight: bold;
 }
@@ -73,29 +72,28 @@ strong {
 
 .contact-info {
     font-style: italic;
-    color: #007bff; /* Keep the contact info color blue */
+    color: #007bff;
     margin-top: 20px;
 }
 
-/* Responsive adjustments */
 @media (max-width: 576px) {
     h1 {
-        font-size: 24px; /* Smaller font size for mobile */
+        font-size: 24px;
     }
 
     h2 {
-        font-size: 20px; /* Smaller font size for mobile */
+        font-size: 20px;
     }
 
     h3 {
-        font-size: 18px; /* Smaller font size for mobile */
+        font-size: 18px;
     }
 
     p {
-        font-size: 14px; /* Smaller font size for mobile */
+        font-size: 14px;
     }
 
     .policy-container {
-        padding: 20px; /* Reduced padding for smaller screens */
+        padding: 20px;
     }
 }
